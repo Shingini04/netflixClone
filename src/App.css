@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+input{
+  cursor: pointer;
+}
+
+.home{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+}
+
+.net{
+  padding-left: 200px;
+  width:100vh;
+  padding-top: 0;
+  cursor: pointer;
+}
+
+.net img{
+  width:120px;
+}
+
+.login-box{
+  background:rgba(0,0,0,0.6);
+  position:absolute;
+  margin-left:35%;
+  width:30%;
+  height: 100vh;
+}
+
+h1{
+  padding-left: 10%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color:white;
+}
+
+.email, .password{
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: rgba(49, 47, 47, 0.7);
+  margin: 5% 10%;
+  height:50px;
+}
+
+.email input, .password input{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+
+}
+
+.btn1{
+  border: 1px solid #d90429;
+  border-radius: 5px;
+  background-color: #ef233c;
+  margin: 0 10%;
+  height:40px;
+  width: 80%;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.or{
+  text-align: center;
+  margin: 20px;
+  color: grey;
+  font-size: 15px;
+}
+
+.btn2{
+  border: 1px solid rgba(122, 121, 121, 0.7);
+  border-radius: 5px;
+  background-color:rgba(122, 121, 121, 0.7);
+  margin: 0 10%;
+  height:40px;
+  width: 80%;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.pass{
+  color:white;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.rem{
+  margin: 5% 10%;
+  color: white;
+  display: flex;
+}
+
+.rem p{
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.new p{
+  margin: 5% 10%;
+  color: grey;
+  font-size: 15px;
+}
+
+.new span{
+  color:white;
+}
+
+.learn p{
+  margin: 0 10%;
+  color: grey;
+  font-size: 12px;
+}
+
+.learn span{
+  color:blue;
+}
